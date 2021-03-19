@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+}
+body {
+    width: 100%;
+    min-width: 260px;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(238,240,244);
+}
+div {
+    display: inline-block;
+}
+header {
+    margin: 0;
+    width:100%;
+    height: 51px;
+    background-color: rgb(90,192,206);
+    text-align: center;
+}
+.left {
+    width: 56px;
+    float: left;
+}
+.center {
+    padding: 15px;
+    width: 32px;
+    height: 21px;
+}
+.right {
+    width: 56px;
+    float: right;
+}
+.roof {
+    margin-top: 3px;
+    padding: 12px;
+    border:2px rgb(90,192,206);
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(90,192,206);
+}
+.box {
+    width: 100vw;
+    min-width: 260px;
+    background-color: rgb(255,255,255);
+    margin-top: 10px;
+    margin-bottom: -4px;
+}
+.size {
+    height: 30px;
+    float: left;
+    margin: 7.5px 10px;
+    padding-right: 10px;
+    border-right: 1px solid rgb(191, 200, 201);
+}
+input { 
+    float: right;
+    width: calc(100% - 71px);
+    height: 43px;
+    border: rgb(255,255,255);
+    outline: none;
+}
+.bottom {
+    text-align: center;   
+    margin-top: 10px; 
+    width: 100%;
+}
+.log {
+    width: 100%;
+    height: 51px;
+    border:2px rgb(90,192,206);
+    background-color: rgb(90,192,206);
+}
+font {
+    margin-right: -20px;
+    letter-spacing: 20px;
+}
+.ending {
+    text-decoration: underline;
+    float:right;
+    margin: 10px;
+    font-size: .5rem;color: rgb(90,192,206);
+    background-color: rgb(238,240,244);
+    border:2px rgb(90,192,206);
+}
+button {
+    touch-action: manipulation;
+    cursor: pointer;
+    outline: 0;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
+p {color: rgb(255,255,255);
+    font-size:1rem;
+    text-align: center;
+    display: inline;
+}
