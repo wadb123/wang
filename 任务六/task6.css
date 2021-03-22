@@ -1,0 +1,189 @@
+
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+    margin-top: 10px;
+    height: 100%;
+    min-width: 300px;
+}
+header {
+    position: fixed;
+    z-index: 99;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    background-color:rgb(72, 209, 233)
+}
+.box {
+    display: inline-block;
+    font-size: 0;
+    border-radius: 5px;
+    margin: 10px -68px 5px 0;
+    background-color: rgb(84, 170, 192);
+}
+.box-l {
+    background-color: rgb(84, 170, 192);
+    color: rgb(255, 255, 255);
+    border: solid rgb(84, 170, 192);
+}
+.box-r {
+    background-color: rgb(255, 255, 255);
+    color: rgb(72, 209, 233);
+    border: solid rgb(255, 255, 255);
+}
+.box-l , .box-r{
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 1.8rem;
+}
+span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(ps图片/sprite.png);
+}
+.icon {
+    float: right;
+    outline: none;
+    border: solid rgb(72, 209, 233);
+    background-color: rgb(72, 209, 233);
+}
+.icon-one {
+    margin: 15px 10px 0;
+    background-position: 0 0;
+    background-color: rgb(72, 209, 233);
+}
+
+
+.top {
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    top: 55px;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+.top-l , .top-center , .top-r {
+    display: inline-block;
+    width: 33.33%;
+    color: rgb(255, 255, 255);
+}   
+.top-l,.top-center {
+    border-right: 1px solid rgb(231, 231, 231);
+}
+.dropdown {
+    text-align: center;
+}
+.dropdown-menu {
+    min-width: 100%;
+}
+a {
+    text-align: center;
+    color: rgb(185, 194, 196);
+}
+
+
+.body {
+    position: relative;
+    top: 95px;
+}
+.icon-top {
+    background-position: -30px 0;
+}
+.icon-two {
+    background-position: -30px -30px;
+}
+.icon-bottom {
+    background-position: 1px -30px;
+}
+.icon-top , .icon-two , .icon-bottom , h4 , h6 {
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon-top , .icon-bottom {
+    margin-right: -5px;
+    padding-left: 5px;
+}
+.body-top {
+    margin-top: 10px;
+}
+.body-center {
+    padding-left: 30px;
+    height: 30px;
+}
+.body-bottom {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(231,231,231);
+}
+.time {
+    margin: 7.5px 0;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.price {
+    float: right;
+}
+h4 {
+    margin: 0;
+    color: rgb(255, 0, 0);
+}
+h6 {
+    margin: 0;
+    color: rgb(185, 194, 196);
+}
+.bottom {
+    height: 61px;
+}
+
+
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    height: 61px;
+    background-color: rgb(247,250,253);
+}
+.bottom-l {
+    margin-right: -20%;
+}
+.center {
+    padding: 0;
+    outline: none;
+    background-color: rgb(95, 192, 205);
+    border-radius: 50%;
+    border: 1px solid rgb(95, 192, 205)
+}
+.bottom-r {
+    margin-left: -20%;
+}
+.bottom-l , .bottom-r {
+    outline: none;
+    background-color: rgb(247,250,253);
+    border: 1px solid rgb(247,250,253);
+}
+.icon-l {
+    margin-top: 7px;
+    background-position: -56px -30px; 
+}
+.icon-center {
+    margin: 15.5px;
+    background-position: 0px -60px;
+}
+.icon-r {
+    margin-top: 7px;
+    background-position: -30px -60px;
+}
+p {
+    text-align: center;
+    font-size: .8rem;
+    color: rgb(185, 194, 196)
+}
