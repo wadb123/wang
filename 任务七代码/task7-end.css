@@ -1,0 +1,143 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    min-width: 300px;
+}
+header {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(40, 190, 225);
+    border-bottom: 0.1px solid rgb(143, 224, 238)
+}
+.top-l {
+    margin: 10px 8px;
+}
+.top-r {
+    margin: 7px;
+}
+.icon-l {
+    width: 24px;
+}
+.icon-r {
+    height: 26px;
+}
+
+
+@media screen and (min-width: 720px){
+    .box-center {
+        text-align: center;
+    }
+}
+main {
+    position: relative;
+    top: 40px;
+}
+.box-top {
+    text-align: center;
+    background-image: url(PS图/end.png);
+    background-repeat: no-repeat;
+    background-size: 240px;
+    background-position: center;
+    height: 170px;
+    background-color: rgb(40, 190, 225);
+}
+.icon {
+    margin: 30px -5px 0 0;
+    width: 57px;
+    height: 55px;
+}
+h2 {
+    margin: 25px 0;
+    color: rgb(255, 255, 255);
+}
+
+
+.box-center {
+    padding: 0 40px 15px;
+    width: 100%;
+    background-color: rgb(40, 190, 225);
+    border-bottom: 1px solid rgb(50, 145, 165);
+}
+.center {
+    margin: 10px 0;
+}
+.gap {
+    display: inline-block;
+    width: 15px;
+    height: 5px;
+}
+h3 {
+    margin: 0 0 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 200, 101);
+}
+h4, h5 {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+h4 {
+    margin: 10px 0;
+}
+h5 {
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+
+.box-bottom, .box-bottom-2, .box-bottom-3, .box-bottom-4 {
+    padding: 0 40px;
+    width: 100%;
+    border-bottom: 1px solid rgb(216, 211, 211);
+}
+h6 {
+    color: rgb(175, 175, 175);
+}
+.box-bottom-5 {
+    padding: 0 40px;
+    width: 100%;
+}
+.sky {
+    width: 100%;
+    height: 60px;
+}
+
+
+footer {
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(40, 190, 225, 0.5);
+}
+.bottom-l {
+    background-color: rgb(245, 111, 111);
+}
+.bottom-r{
+    background-color: rgb(251, 180, 53);
+}
+.bottom-l, .bottom-r {
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+p {
+    display: inline-block;
+    margin: 6px 0;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
