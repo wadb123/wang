@@ -1,0 +1,268 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    min-width: 400px;
+}
+
+@media screen and (max-width: 575px) {
+    .option {
+        display: none;
+    }
+}
+@media screen and (min-width:576px) {
+    .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+        display: none;
+        flex-direction: row;
+    }
+}
+header {
+    flex: 0 0 auto;
+}
+.fixed-top {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-top {
+    padding: 0 5%;
+    background-color: rgb(255, 255, 255);
+}
+.log {
+    display: flex;
+    justify-content: space-between;
+}
+h6 {
+    margin: auto 0;
+    text-align: center;
+    color: rgb(40, 170, 120);
+}
+p {
+    display: inline-block;
+    margin: 0;
+    padding: 20px 25px;
+    font-size: 8px;
+    color: rgb(255, 255, 255);
+}
+.p-bottom {
+    display: inline-block;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.frame {
+    display: inline-block;
+}
+.p-hidden {
+    visibility: hidden;
+    width: 74px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+.frame:hover>.p-hidden {
+    visibility: visible;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-color: rgb(40, 170, 120);
+}
+.bg-light {
+    background-color: rgb(40, 170, 120) !important;
+}
+.navbar-light .navbar-toggler {
+    border-color: rgb(40, 170, 120);
+}
+.navbar-nav {
+    text-align: center;
+}
+.jnshu-top,.jnshu-bottom {
+    margin-top: 5px;
+    width: 90px;
+    display: block;
+}
+.header-l {
+    margin-top: 10px;
+}
+.navbar {
+    padding: 6px 5%;
+}
+.navbar-brand {
+    padding: 0;
+}
+
+
+.main {
+    background-color: rgb(240, 240, 240);
+    padding-top: 90px;
+}
+.hand {
+    width: 100%;
+}
+.main-l {
+    float: left;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.left-top {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.circle-one,.circle-two {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 145, 0)
+}
+.circle-two {
+    background-color: rgb(255, 145, 0);
+}
+.a-left {
+    color: rgb(38, 160, 113)
+}
+.a-left:hover>.circle-one {
+    background-color: rgb(255, 145, 0);
+}
+.a-left:hover {
+    color: rgb(255, 145, 0);
+    text-decoration: none;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+
+.main-r {
+    margin-bottom: 35px;
+    padding: 30px 50px 50px;
+    background-color: rgb(255, 255, 255);
+}
+.tudou {
+    float: left;
+    margin: 5px 20px 0;
+    width: 80px;
+}
+.right-top {
+    padding: 50px 50px 30px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    background-color: rgb(255, 255, 255);
+}
+h3,h2 {
+    line-height: 2;  
+    font-size: 10px;
+    color: rgb(150, 150, 150);
+}
+h3 {
+    text-indent: 2.4em;
+}
+h5 {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 1rem;
+    color: rgb(40, 170, 120);
+}
+h4 {
+    padding-top: 10px;
+    font-size: 10px;
+    color: rgb(255, 145, 0);
+}
+@media (max-width:575px) {
+    .circle-one, .circle-two {
+        margin-left: 43.5%;
+    }
+}
+@media (min-width:576px) {
+    .circle-one, .circle-two {
+        margin-left: 30%;
+    }
+}
+
+
+
+footer {
+    background-color: rgb(40, 170, 120);
+}
+
+.footer-centre {
+    margin-left: 25px;
+}
+.footer-r {
+    margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .footer-r {
+        float: left;
+    }
+}
+@media (max-width: 768px) {
+    .footer-r {
+        text-align: center;
+    }
+}
+h1 {
+    margin: 20px 0 0;
+    font-size: .5rem;
+    color: rgb(255, 255, 255);
+}
+.prcode {
+    width: 70px;
+}
+.game {
+    font-size: .5rem;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+}
+.name {
+    font-size: .5rem;
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.about {
+    display: inline-block;
+}
+.a {
+    display: inline-block;
+    margin: 13px 10px 0 0;
+}
+.about-bottom {
+    visibility: hidden;
+    margin: 5px auto 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.a-bottom {
+    color: rgb(255, 255, 255);
+}
+.a-bottom:hover {
+    color: rgb(255, 255, 255);
+}
+.a:hover>.about-bottom {
+    visibility: visible;
+}
+.about:hover>.about-bottom {
+    visibility: visible;
+}
+a:hover {
+    text-decoration: none;
+}
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+.jnshu {
+    height: 10px;
+    margin: 5px 0;
+}

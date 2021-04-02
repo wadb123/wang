@@ -1,0 +1,357 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    min-width: 400px;
+}
+
+@media screen and (max-width: 450px) {
+    .option {
+        display: none;
+    }
+}
+@media screen and (min-width:451px) {
+    .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+        display: none;
+        flex-direction: row;
+    }
+}
+header {
+    flex: 0 0 auto;
+}
+.fixed-top {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-top {
+    padding: 0 5%;
+    background-color: rgb(255, 255, 255);
+}
+.log {
+    display: flex;
+    justify-content: space-between;
+}
+.p-bottom {
+    display: inline-block;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.frame {
+    display: inline-block;
+}
+.p-hidden {
+    visibility: hidden;
+    width: 74px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+.frame:hover>.p-hidden {
+    visibility: visible;
+}
+
+h6 {
+    margin: auto 0;
+    text-align: center;
+    color: rgb(40, 170, 120);
+}
+p {
+    display: inline-block;
+    margin: 0;
+    padding: 20px 25px;
+    font-size: 8px;
+    color: rgb(255, 255, 255);
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-color: rgb(40, 170, 120);
+}
+.bg-light {
+    background-color: rgb(40, 170, 120) !important;
+}
+.navbar-light .navbar-toggler {
+    border-color: rgb(40, 170, 120);
+}
+.navbar-nav {
+    text-align: center;
+}
+.jnshu-top,.jnshu-bottom {
+    margin-top: 5px;
+    width: 90px;
+    display: block;
+}
+.header-l {
+    margin-top: 10px;
+}
+.navbar {
+    padding: 6px 5%;
+}
+.navbar-brand {
+    padding: 0;
+}
+
+
+.main {
+    padding-top: 93px;
+    background-color: rgb(250, 250, 250);
+}
+.main-top {
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+h5 {
+    display: inline-block;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 1rem;
+    color: rgb(40, 170, 120);
+}
+.h4 {
+    margin: 0;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+h2, h3, h4 {
+    display: inline-block;
+    margin: 20px 10px 20px 0;
+    font-size: .8rem;
+}
+h4 {
+    color: rgb(160, 160, 160);
+}
+h3 {
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 170, 120);
+}
+
+.h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+
+.box {
+    margin: 40px auto 0;
+}
+.head {
+    margin: 10px;
+    width: 100px;
+}
+.head, .box-top-r {
+    display: inline-block;
+}
+.box-top-r {
+    vertical-align: middle;
+    width: 60%;
+}
+.web-css {
+    padding: 15px 20px 15px 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.brief {
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: .8rem;
+    line-height: 1.5;
+}
+table {
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+}
+table, td, th {
+    border: 1px solid rgb(199, 199, 199)
+}
+.box-center {
+    padding: 10px 10px;
+    width: 50%;
+    font-size: .8rem;
+    color: rgb(160, 160, 160);
+}
+.icon {
+    margin-bottom: -5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./PS图/sprite2.png);
+    background-position: 0 -70px;
+}
+.red, .black {
+    display: inline-block;
+    font-size: .5rem;
+}
+.red {
+    font-size: .9rem;
+    padding-left: 5px;
+    color: red;
+}
+.black {
+    color: black;
+}
+.money {
+    float: right;
+}
+.age {
+    margin: 10px;
+}
+.treatment {
+    text-align: center;
+    width: 30%;
+    color: rgb(160, 160, 160);
+}
+.box-bottom {
+    padding-left: 20px;
+}
+.bottom {
+    margin-bottom: 50px;
+}
+.box-conceal, .box-conceal-bottom {
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    left: 15px;
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.box-conceal {
+    bottom: 0;
+    visibility: hidden;
+}
+.box-conceal-bottom {
+    bottom: 50px;
+    visibility: hidden;
+}
+.visible:hover>.box-conceal {
+    visibility: visible;
+}
+.bottom:hover>.box-conceal-bottom {
+    visibility: visible;
+}
+.ios-top, .ios-bottom {
+    padding: 20px 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.ios-top {
+    text-align: center;
+    font-size: 17px;
+}
+@media (min-width: 992px){
+    .container {
+        width: 1160px;
+    }
+}
+@media (min-width: 992px){
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 1100px;
+    }
+}
+a {
+    color: rgb(160, 160, 160);
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+}
+#one {
+    margin-top: -25px;
+    padding-top: 25px;
+}
+#two {
+    margin-top: -93px;
+    padding-top: 93px;
+}
+#three {
+    margin-top: -93px;
+    padding-top: 93px;
+}
+#four {
+    margin-top: -93px;
+    padding-top: 93px;
+}
+#five {
+    margin-top: -93px;
+    padding-top: 93px;
+}
+
+
+footer {
+    background-color: rgb(40, 170, 120);
+}
+
+.name {
+    font-size: .5rem;
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.about {
+    display: inline-block;
+}
+.footer-centre {
+    margin-left: 25px;
+}
+.footer-r {
+    margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .footer-r {
+        float: left;
+    }
+}
+@media (max-width: 768px) {
+    .footer-r {
+        text-align: center;
+    }
+}
+h1 {
+    margin: 20px 0 0;
+    font-size: .5rem;
+    color: rgb(255, 255, 255);
+}
+.prcode {
+    width: 70px;
+}
+.game {
+    font-size: .5rem;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+}
+.a {
+    display: inline-block;
+    margin: 13px 10px 0 0;
+}
+.a-top {
+    color: rgb(255, 255, 255);
+}
+.a-top:hover {
+    color: rgb(255, 255, 255);
+}
+.a-bottom {
+    visibility: hidden;
+    margin: 5px auto 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.a:hover>.a-bottom {
+    visibility: visible;
+}
+.about:hover>.a-bottom {
+    visibility: visible;
+}
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+.jnshu {
+    height: 10px;
+    margin: 5px 0;
+}
